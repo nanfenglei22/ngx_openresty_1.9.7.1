@@ -29,6 +29,8 @@ The bundled software components are copyrighted by the respective copyright hold
 
 The homepage for this project is http://openresty.org.
 
+The Openresty contain he latest stable openssl version with 1.0.2e
+
 For Users
 ---------
 
@@ -113,3 +115,6 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 [Back to TOC](#table-of-contents)
 
+====================================
+Run the installation script and follow on screen instructions.
+sh run.sh
