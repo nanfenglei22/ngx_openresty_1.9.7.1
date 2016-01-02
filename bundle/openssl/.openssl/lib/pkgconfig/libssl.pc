@@ -1,0 +1,12 @@
+prefix=/home/lizhiming/github/ngx_openresty-1.9.7.1/bundle/openssl/.openssl
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libssl
+Description: Secure Sockets Layer and cryptography libraries
+Version: 1.0.2e
+Requires.private: libcrypto
+Libs: -L${libdir} -lssl
+Libs.private: -lefence -ldl
+Cflags: -I${includedir} 
